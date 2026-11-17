@@ -40,7 +40,7 @@ no developer key.
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/bourquep/AmusoKit.git", from: "0.1.0"),
+  .package(url: "https://github.com/bourquep/AmusoKit.git", from: "1.0.0"),
 ],
 ```
 
