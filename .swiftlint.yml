@@ -1,0 +1,17 @@
+opt_in_rules:
+  - indentation_width
+
+# String(decoding:as:) is used on purpose where a lossy decode beats a nil: logs and XML bodies.
+disabled_rules:
+  - optional_data_string_conversion
+
+included:
+  - Package.swift
+  - Sources
+  - Tests
+
+indentation_width:
+  indentation_width: 2
+  include_comments: true
+  include_compiler_directives: false
+  include_multiline_strings: true
